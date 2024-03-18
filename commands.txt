@@ -1,0 +1,28 @@
+commands for the vm machine:
+
+sudo apt-get update -y // updates entire os
+
+install python : 
+sudo apt-get install python3-distutils
+sudo apt-get install python3-apt
+
+install pip : 
+sudo apt-get install wget
+wget https://bootstrap.pypa.io/get-pip.py
+
+get pip file:
+sudo apt install python3.11-venv
+python3 -m venv path/to/venv
+source path/to/venv/bin/activate
+
+
+install pandas : 
+pip install pandas
+
+install mage data tool: https://www.mage.ai/
+pip install mage-ai 
+
+start mage project : 
+pip install dask[dataframe]
+sudo apt-get install git 
+mage start ride_project
