@@ -1,6 +1,7 @@
 commands for the vm machine:
 
 sudo apt-get update -y // updates entire os
+sudo apt install software-properties-common
 
 install python : 
 sudo apt-get install python3-distutils
@@ -17,12 +18,16 @@ source path/to/venv/bin/activate
 
 
 install pandas : 
-pip install pandas
+pip install pandas 
 
 install mage data tool: https://www.mage.ai/
 pip install mage-ai 
 
 start mage project : 
 pip install dask[dataframe]
+export GIT_PYTHON_REFRESH=quiet
 sudo apt-get install git 
 mage start ride_project
+
+install google cloud and bigQuery: 
+sudo pip3 install google-cloud-bigquery
